@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive; 
+}
+a:visited{
+    color: white;
+}
+
+.Logo img{
+    width: 30%;
+    opacity: 1;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(175, 76, 76);
+}
+
+.Secciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1632px;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+.Intro{
+    text-align: center;
+    padding-top:200px;
+    padding-bottom: 200px;
+    color: rgb(236, 236, 236);
+    text-decoration: underline;
+    max-width: 80%;
+    margin: 200px auto;
+    text-shadow:5px 5px 5px rgb(138, 7, 29);
+}
+.Shinys{
+    width: 300px;
+    background-color: rgb(175, 76, 76);
+    border-radius: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    opacity: 0.7;
+    transition: border-radius 100ms linear;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Shinys img{
+    width: 100%;
+    border-radius: 15px;
+}
+.Shinys:hover{
+    opacity: 1;
+    border-radius: 15px;
+}
+
+.Graficos{
+    width: 250px;
+    background-color:rgb(175, 76, 76);
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    opacity: 0.7;
+    transition: border-radius 100ms linear;
+    text-align: center;
+}
+.Graficos img{
+    width: 100%;
+    border-radius: 15px;
+}
+.Graficos:hover{
+    opacity: 1;
+    border-radius: 15px;
+}
+.Anime{
+    width: 300px;
+    background-color:rgb(175, 76, 76);
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    opacity: 0.7;
+    transition: border-radius 100ms linear;
+    text-align: center;
+
+}
+.Anime img{
+    width: 100%; 
+    border-radius: 15px;
+}
+.Anime:hover{
+    opacity: 1;
+    border-radius: 15px;
+}
+.Juegos{
+    width: 350px;
+    background-color:rgb(175, 76, 76);
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    opacity: 0.7;
+    transition: border-radius 100ms linear;
+    text-align: center;
+}
+.Juegos img{
+    width: 100%;
+    border-radius: 15px;
+}
+.Juegos:hover{
+    opacity: 1;
+    border-radius: 15px;
+}
+.Principal{
+    background-color: rgb(220, 10, 45);
+}
+* p{
+    font-size: 25px;
+}
+.footer p{
+    font-size: 20px;
+    color: cornsilk;
+}
+.footer{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer img{
+    width: 5%;
+}
